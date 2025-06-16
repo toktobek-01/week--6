@@ -15,6 +15,13 @@ public class ListExampple {
         System.out.println("Second fruit: " + fruits.get(1));
         fruits.get(0);
         System.out.println("After removing the first fruit we have: " + fruits);
+        fruits.remove(1);
+        fruits.add(1,"Grapes");
+        System.out.println("We just removed Banana and added Grapes instead: ");
+
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
 
     }
 

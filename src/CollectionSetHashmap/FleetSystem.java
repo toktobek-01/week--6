@@ -19,7 +19,7 @@ public class FleetSystem {
         deliveries.put("NY9012", Arrays.asList("New York", "Buffalo"));
 
         for(String t : truck) {
-            System.out.println(" Truck: " + t);
+            System.out.println(" TRUCK: " + t);
             System.out.println(" Driver: " + truckDrivers.get(t));
             System.out.println(" Cities: " + deliveries.get(t));
             System.out.println();
